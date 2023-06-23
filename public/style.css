@@ -1,0 +1,131 @@
+
+html{
+    line-height:1em;
+}
+
+
+body{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#333;
+    background-color:#fff;
+}
+
+#container{
+    display:block;
+    margin-top:5px;
+    width:1024px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url('fundo-papel.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    padding: 10px;
+}
+
+#cabecalho{
+    display: block;
+    width:100%;
+    height: 90px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.cab_titulo{
+    text-align: center;
+    font-size: 64px;
+    font-weight: bold;
+    color: #000;
+    border-top:2px solid #000;
+    border-bottom:2px solid #000;
+    display:block;
+    line-height: 1em;
+}
+.cab_data{
+    text-align: right;
+    font-size: 12px;
+    color: #333;
+}
+
+#corpo{
+    display: block;
+    width:100%;
+    height: auto;
+    min-height: 350px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.titulo_noticia{
+    font-size: 28px;
+    line-height: 1em;    
+}
+
+.manchete{
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.manchete h1{
+    font-size: 22px;
+
+}
+
+#rodape{
+    display: block;
+    width:100%;
+    margin-right:auto;
+    margin-left: auto;
+    text-align: center;
+    border-top: 2px solid #000;
+    font-size: 14px;
+    margin-top:1px;
+    padding-top:5px;
+}
+
+.tabela_horizontal{
+    background-color: #ccc;
+    font-size: 14px;    
+    border-spacing:0px;
+}
+
+.tabela_horizontal thead th{
+    background-color: #2a9ee2;
+    font-weight: bold;    
+    color: #fff;
+    line-height: 1em;
+}
+
+.tabela_horizontal tbody td{
+    background-color: #eee;
+    font-weight: normal;    
+    color: #333;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #eee;    
+}
+.tabela_horizontal tbody td h1{
+    font-weight: bold;    
+    font-size:11px;
+    line-height: 0.7em;
+}
+.tabela_horizontal a{
+    text-decoration: none;
+    color:darkblue;
+}
+.tabela_horizontal a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.img_tb{
+    width:200px;
+    float:left;
+    vertical-align: top;
+    padding-right:10px;
+}
